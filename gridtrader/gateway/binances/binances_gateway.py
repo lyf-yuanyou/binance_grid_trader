@@ -38,6 +38,7 @@ from gridtrader.trader.object import (
 )
 from gridtrader.event import EVENT_TIMER, Event, EventEngine
 
+# U本位
 F_REST_HOST: str = "https://fapi.binance.com"
 F_WEBSOCKET_TRADE_HOST: str = "wss://fstream.binance.com/ws/"
 F_WEBSOCKET_DATA_HOST: str = "wss://fstream.binance.com/stream?streams="
