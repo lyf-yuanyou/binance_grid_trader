@@ -43,6 +43,10 @@ F_REST_HOST: str = "https://fapi.binance.com"
 F_WEBSOCKET_TRADE_HOST: str = "wss://fstream.binance.com/ws/"
 F_WEBSOCKET_DATA_HOST: str = "wss://fstream.binance.com/stream?streams="
 
+TEST_F_REST_HOST: str = "https://testnet.binancefuture.com"
+TEST_F_WEBSOCKET_TRADE_HOST: str = "wss://stream.binancefuture.com/ws/"
+TEST_F_WEBSOCKET_DATA_HOST: str = "wss://stream.binancefuture.com/stream?streams="
+
 D_REST_HOST: str = "https://dapi.binance.com"
 D_WEBSOCKET_TRADE_HOST: str = "wss://dstream.binance.com/ws/"
 D_WEBSOCKET_DATA_HOST: str = "wss://dstream.binance.com/stream?streams="
